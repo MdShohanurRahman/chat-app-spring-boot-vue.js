@@ -21,5 +21,4 @@ This is the backend service for a real-time chat application. It provides WebSoc
 - **Maven**: Build and dependency management.
 
 ## Application UI
-![Vue.js frontend](./chat-frontend)
 ![Chat Application Screenshot](./chat-frontend/screenshots/chat-interface.png)
