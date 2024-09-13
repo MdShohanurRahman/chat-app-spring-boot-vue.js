@@ -223,8 +223,10 @@ export default {
         // Update user list with the latest user status
         updateUserList(userMessage) {
             const existingUser = this.users.find(user => user.username === userMessage.username);
-            if (userMessage.username === this.loggedInUsername && !userMessage.isOnline) {
-                this.logout();
+            if (userMessage.username === this.loggedInUsername) {
+                if (!userMessage.isOnline) {
+                    this.logout();
+                }
             } else if (existingUser) {
                 this.users = this.users.map(user =>
                     user.username === userMessage.username ? {...user, ...userMessage} : user
