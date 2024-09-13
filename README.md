@@ -8,7 +8,6 @@ This is the backend service for a real-time chat application. It provides WebSoc
 - **REST API**: For user authentication, fetching users, and retrieving chat history.
 - **Message Status**: Tracks message delivery and seen status.
 - **Unseen Message Count**: Keeps track of unread messages for each user.
-- **User Authentication**: Basic authentication for users (JWT or session-based).
 - **Database Persistence**: Chat messages and user data are persisted in the database.
 
 ## Technologies Used
