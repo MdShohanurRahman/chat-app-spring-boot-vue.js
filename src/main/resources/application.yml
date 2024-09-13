@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: chat-app
+  datasource:
+    url: jdbc:postgresql://localhost:5432/${POSTGRES_DB:chat-app}
+    username: ${POSTGRES_USER:admin}
+    password: ${POSTGRES_PASSWORD:admin}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
