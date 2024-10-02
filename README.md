@@ -15,7 +15,7 @@ This is the backend service for a real-time chat application. It provides WebSoc
 - **Spring Boot**: Java framework for creating REST APIs and WebSocket endpoints.
 - **Spring WebSocket**: WebSocket support for real-time communication.
 - **Spring Data JPA**: For database interaction and ORM (Object Relational Mapping).
-- **Postgresql database for storing user and message data.
+- **Postgresql database** for storing user and message data.
 - **STOMP**: Protocol for real-time messaging over WebSocket.
 - **Maven**: Build and dependency management.
 
