@@ -19,5 +19,4 @@ This is the backend service for a real-time chat application. It provides WebSoc
 - **Maven**: Build and dependency management.
 
 ## Application UI
-[![Video Demo](./chat-frontend/screenshots/chat-interface.png)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bn2WsqX-uCE?si=TS-r7VAL1Fierur5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Video Demo](./chat-frontend/screenshots/chat-interface.png)](https://www.youtube.com/watch?v=bn2WsqX-uCE&t=29s)
