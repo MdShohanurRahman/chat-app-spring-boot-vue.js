@@ -3,7 +3,6 @@
 This is the backend service for a real-time chat application. It provides WebSocket support for real-time messaging and REST APIs for user management, message storage, and chat history retrieval. The backend is built using Spring Boot, with WebSocket for real-time communication and a database for persistent message storage.
 
 ## Features
-![Video Demo](https://youtu.be/GubDW9hWpao?si=clYc557TDCVPdwp3)
 - **WebSocket Communication**: Real-time messaging using WebSocket and STOMP protocol.
 - **REST API**: For user authentication, fetching users, and retrieving chat history.
 - **Message Status**: Tracks message delivery and seen status.
@@ -20,4 +19,5 @@ This is the backend service for a real-time chat application. It provides WebSoc
 - **Maven**: Build and dependency management.
 
 ## Application UI
-![Chat Application Screenshot](./chat-frontend/screenshots/chat-interface.png)
+[![Video Demo](./chat-frontend/screenshots/chat-interface.png)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bn2WsqX-uCE?si=TS-r7VAL1Fierur5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
